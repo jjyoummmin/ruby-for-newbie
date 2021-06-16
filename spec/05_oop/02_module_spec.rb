@@ -39,6 +39,8 @@ RSpec.describe 'Module' do
   it 'name, age 를 갖는 Person 클래스가 존재합니다. "name" 은 공개가 되어도 되지만 "age" 는 비밀입니다. Person 클래스를 작성해 보세요' do
     expect(@person.name).to eq('dante')
     # expect(@person.display).to eq('dante_0')
+
+    # send로 호출하면 private 메소드더라도 호출이 된다...
     expect(@person.send(:secret)).to eq(0)
   end
 

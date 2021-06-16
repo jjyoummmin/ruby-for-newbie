@@ -3,8 +3,8 @@
 require 'rspec'
 
 # 코드 시작
-# test_1 = 2**3 != 3**2 && true
-# test_2 = false || -10 < -9
+test_1 = 2**3 != 3**2 && true
+test_2 = false || -10 < -9
 # 코드 끝
 
 RSpec.describe 'LessThanOrGreateThan' do

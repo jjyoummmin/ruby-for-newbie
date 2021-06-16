@@ -8,6 +8,10 @@
 require 'rspec'
 
 # 코드 시작
+my_num = 30
+my_boolean = true
+my_string = 'ruby'
+my_hash = {:name => 'dante', :email => 'dante@example.com', :age => 40}
 # 코드 끝
 
 RSpec.describe 'BasicVariables' do

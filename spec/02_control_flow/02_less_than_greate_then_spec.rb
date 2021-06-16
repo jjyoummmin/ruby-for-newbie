@@ -3,10 +3,10 @@
 require 'rspec'
 
 # 코드 시작
-# test_1 = 17 __ 16
-# test_2 = 21 __ 30
-# test_3 = 9 __ 9
-# test_4 = -11 __ 4
+test_1 = 17 > 16
+test_2 = 21 < 30
+test_3 = 9 >= 9
+test_4 = -11 <= 4
 # 코드 끝
 
 RSpec.describe 'LessThanOrGreateThan' do

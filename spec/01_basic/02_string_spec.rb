@@ -12,6 +12,11 @@
 require 'rspec'
 
 # 코드시작
+str = $stdin.gets.chomp.reverse
+ruby = $stdin.gets.chomp.capitalize
+small = $stdin.gets.chomp.downcase
+big = $stdin.gets.chomp.upcase
+name = $stdin.gets.chomp.downcase.reverse.upcase
 # 코드 끝
 
 RSpec.describe 'BasicString' do

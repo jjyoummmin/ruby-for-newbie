@@ -8,7 +8,7 @@ require 'rspec'
 cube = Proc.new { |x| x * 2 }
 # 코드 끝
 numbers = (1..10).to_a
-numbers.collect!(&cube)
+numbers.collect! &cube
 
 floats = [1.2, 3.45, 0.91, 7.727, 11.42, 482.911]
 # 코드 시작

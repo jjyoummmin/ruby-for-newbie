@@ -27,7 +27,7 @@ def condition(number)
 end
 
 def check(number)
-  return true unless number == 0 # unless 구문을 함께 사용해 보자
+  return true if number == 0 # unless 구문을 함께 사용해 보자
 
   false
 end
